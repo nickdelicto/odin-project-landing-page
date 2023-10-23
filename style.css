@@ -107,3 +107,25 @@ ul {
     border: #3882F6 4px solid;
     border-radius: 10px;
 }
+
+.blockquote {
+    background-color: #e5e7eb;
+    padding: 100px 250px 100px 250px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 100;
+}
+
+blockquote footer {
+    font-size: 22px;
+    text-align: end;
+    font-style: normal;
+}
