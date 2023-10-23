@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 20px 200px 150px 200px;
+    padding: 20px 150px 150px 150px;
 }
 
 #logo {
@@ -110,11 +110,12 @@ ul {
 
 .blockquote {
     background-color: #e5e7eb;
-    padding: 100px 250px 100px 250px;
+    padding: 100px 100px 100px 100px;
 }
 
 blockquote {
-    margin: 0;
+    margin: auto;
+    max-width: 1200px;
 }
 
 blockquote p {
@@ -172,4 +173,12 @@ blockquote footer {
     color: #F9FAF8;
     font-size: 22px;
     font-weight: bold;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
