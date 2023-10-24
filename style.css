@@ -8,13 +8,13 @@ body {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #23d48d4b;
     padding: 20px 150px 150px 150px;
 }
 
 #logo {
     font-size: 30px;
-    color: #F9FAF8;
+    color: #1F2937;
     font-weight: bold;
 }
 
@@ -22,17 +22,24 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    color: #e5e7eb;
     font-size: 22px;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1F2937;
 }
 
 .hero {
@@ -43,23 +50,23 @@ ul {
 }
 
 .hero-left {
-    max-width: 550px;
+    max-width: 700px;
 }
 
 .hero-left h1 {
-    color: #F9FAF8;
+    color: #000;
     font-size: 60px;
     font-weight: extra-bold;
     margin-bottom: -10px;
 }
 
 .hero-left p {
-    color: #e5e7eb;
+    color: #1F2937;
     font-size: 22px;
 }
 
 .hero-left button {
-    background-color: #3882F6;
+    background-color: #d64528;
     border-style: none;
     padding: 10px 35px;
     border-radius: 10px;
@@ -82,12 +89,14 @@ ul {
 .info-section h2 {
     font-size: 45px;
     font-weight: extra-bold;
-    color: #1F2937
+    color: #1F2937;
+    text-align: center;
 }
 
 .info-boxes {
     display: flex;
-    gap: 100px;
+    gap: 150px;
+    flex-wrap: wrap;
 }
 
 .box-text {
@@ -104,12 +113,12 @@ ul {
 .box-text div {
     height: 150px;
     width: 150px;
-    border: #3882F6 4px solid;
     border-radius: 10px;
+    text-align: center;
 }
 
 .blockquote {
-    background-color: #e5e7eb;
+    background-color: #23d48d1d;
     padding: 100px 100px 100px 100px;
 }
 
@@ -136,7 +145,7 @@ blockquote footer {
 }
 
 .container {
-    background-color: #3882F6;
+    background-color: #d64528;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -144,16 +153,19 @@ blockquote footer {
     border-radius: 8px;
     max-width: 1200px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .cta-content h3 {
     color:#F9FAF8;
     font-size: 30px;
+    text-align: center;
 }
 
 .cta-content p {
     color:#e5e7eb;
     font-size: 22px;
+    text-align: center;
 }
 
 .cta-button {
@@ -164,7 +176,7 @@ blockquote footer {
 }
 
 .cta-button button {
-    background-color: #3882F6;
+    background-color: #d64528;
     border: none;
 }
 
@@ -176,8 +188,8 @@ blockquote footer {
 }
 
 .footer {
-    background-color:#1F2937;
-    color: #F9FAF8;
+    background-color:#23d48d1d;
+    color: #1F2937;
     font-size: 18px;
     text-align: center;
     padding: 20px 0 20px 0;
